@@ -4,21 +4,18 @@
  */
 export const links = {
   /** Vídeo de demonstração do sistema (máx. 5 min) */
-  video: "",
+  video: "https://drive.google.com/drive/folders/1j7TUoSLIm9Gsgb_jMmjCkpbPrKqPv4sD?usp=drive_link",
   /** PDF atualizado do Relatório de Estágio */
-  relatorioPdf: "",
+  relatorioPdf: "https://drive.google.com/drive/folders/1j7TUoSLIm9Gsgb_jMmjCkpbPrKqPv4sD?usp=drive_link",
   /** Pasta/arquivo com todos os diagramas do projeto */
-  diagramas: "",
-  /** Repositório do código-fonte (opcional) */
-  repositorio: "",
 };
 
 export const aluno = {
   nome: "Gustavo Montanini Victor",
-  matricula: "",
+  matricula: "241072154",
   curso: "Bacharelado em Engenharia de Software",
   instituicao: "UniFil — Centro Universitário Filadélfia",
-  orientadores: "Marcelo Yamamoto / Fernando Nakagawa",
+  orientadores: "Fernando Nakagawa",
   empresa: "Pado S/A Indústria, Comércio e Importadora",
   entrega: "14/09",
 };

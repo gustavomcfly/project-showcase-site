@@ -315,20 +315,6 @@ function Portfolio() {
         title="Diagramas desenvolvidos no projeto"
         description="Casos de uso, entidade e relacionamento, classes, sequência, estados, implantação e o workflow AS IS em BPMN. Clique em qualquer diagrama para ampliar."
       >
-        {links.diagramas ? (
-          <a
-            href={links.diagramas}
-            target="_blank"
-            rel="noreferrer"
-            className="mb-8 inline-flex items-center gap-2 rounded-lg bg-primary px-4 py-2 font-display text-sm font-semibold text-primary-foreground transition-opacity hover:opacity-90"
-          >
-            Abrir pasta com todos os diagramas <ExternalLink className="size-4" />
-          </a>
-        ) : (
-          <div className="mb-8">
-            <PendingLink label="Pasta com todos os diagramas" />
-          </div>
-        )}
 
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {diagramas.map((d) => (
@@ -441,17 +427,6 @@ function Portfolio() {
             <PendingLink label="PDF do relatório" />
           )}
         </div>
-
-        {links.repositorio ? (
-          <a
-            href={links.repositorio}
-            target="_blank"
-            rel="noreferrer"
-            className="mt-5 inline-flex items-center gap-2 text-sm text-primary hover:underline"
-          >
-            <Workflow className="size-4" /> Repositório do código-fonte
-          </a>
-        ) : null}
       </Section>
 
       {/* 7. Identificação */}
@@ -460,7 +435,7 @@ function Portfolio() {
           {[
             { icon: GraduationCap, rotulo: "Nome completo", valor: aluno.nome },
             { icon: BadgeCheck, rotulo: "Matrícula", valor: aluno.matricula || "A informar" },
-            { icon: Boxes, rotulo: "Professores orientadores", valor: aluno.orientadores },
+            { icon: Boxes, rotulo: "Professor orientador", valor: aluno.orientadores },
             { icon: Layers, rotulo: "Curso", valor: aluno.curso },
             { icon: CircuitBoard, rotulo: "Instituição", valor: aluno.instituicao },
             { icon: ShieldCheck, rotulo: "Empresa concedente", valor: aluno.empresa },
