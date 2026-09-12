@@ -280,13 +280,13 @@ export const cronograma: EtapaCronograma[] = [
     fase: "4 · Controle e desempenho",
     entregas:
       "Implementação dos casos de uso restantes (Teste de Ciclagem, Teste de Qualidade e Geração de Relatórios) e Plano de Estágio Parcial 3",
-    periodo: "Set — Nov/2026",
-    status: "Em andamento",
+    periodo: "Ago — Set/2026",
+    status: "Concluído",
   },
   {
     fase: "5 · Fechamento do projeto",
     entregas: "Testes finais, ajustes de homologação e entrega do relatório final de estágio",
-    periodo: "Dez/2026",
+    periodo: "Out - Dez/2026",
     status: "Previsto",
   },
 ];
